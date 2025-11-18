@@ -1,0 +1,32 @@
+body {
+    background-image: url('https://images.unsplash.com/photo-1497032205916-ac775f0649ae');
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: white;
+}
+form {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+input, select {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 80%;
+}
+button {
+    padding: 10px 20px;
+    background: #ffafbd;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}

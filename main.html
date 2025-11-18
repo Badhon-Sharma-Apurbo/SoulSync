@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoulSync - Mood Selector</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="welcome"></h1>
+    <button onclick="history.back()">Go Back</button>
+    <h2>Select Your Mood</h2>
+    <div class="moods">
+        <button onclick="showSongs('happy')">Happy 😊</button>
+        <button onclick="showSongs('emotional')">Emotional 😢</button>
+        <button onclick="showSongs('romantic')">Romantic ❤️</button>
+        <button onclick="showSongs('energetic')">Energetic ⚡</button>
+        <button onclick="showSongs('relaxing')">Relaxing 😌</button>
+    </div>
+    <select id="language" onchange="filterSongs()">
+        <option value="All">All Languages</option>
+        <option value="English">English</option>
+        <option value="Hindi">Hindi</option>
+        <option value="Bangla">Bangla</option>
+    </select>
+    <div id="songList"></div>
+    <script src="script.js"></script>
+</body>
+</html>
